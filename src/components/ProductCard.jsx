@@ -22,8 +22,8 @@ const ProductCard = props => {
             <p className="popular_item_name">{props.name}</p>
             <p className="popular_item_price">Giá: {props.price}Đ</p>
             <div>
-                <Btn name="Đặt Mua" link="" class="btn_order" onClick={() => dispatch(open(getProductBySlug(props.slug)))}/>
-                <Btn name="Tìm hiểu Thêm" link={`${props.slug}`} class="btn_info-item"/>
+                <Btn name="Đặt Mua" link="" classname="btn_order" onClick={() => dispatch(open(getProductBySlug(props.slug)))}/>
+                <Btn name="Tìm hiểu Thêm" link={`${props.slug}`} classname="btn_info-item"/>
             </div>
         </Row>
     )
@@ -32,7 +32,7 @@ const ProductCard = props => {
 ProductCard.propTypes = {       
     img: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
-    price: PropTypes.number.isRequired,
+    price: PropTypes.string.isRequired,
     slug: PropTypes.string.isRequired,
 }
 

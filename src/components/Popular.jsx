@@ -23,7 +23,7 @@ const Popular = () => {
                         ))
                     }
                 </div>
-                <Btn name="Thêm Sản Phẩm..." link="/Menu" class="btn_menu"/>
+                <Btn name="Thêm Sản Phẩm..." link="/Menu" classname="btn_menu"/>
                 
             </Container>
         </div>

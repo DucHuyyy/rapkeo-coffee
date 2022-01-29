@@ -53,7 +53,7 @@ const Product_ModalCart = () => {
                 state_modal.orders.map((item, index) => (
                     <div className="ModalCart_row" key={index}>
                         <div className="ModalCart_col ModalCart_item erase">
-                            <i class='bx bxs-trash' onClick={() => dispatch(remove(index))}></i>
+                            <i className='bx bxs-trash' onClick={() => dispatch(remove(index))}></i>
                         </div>
                         <div className="ModalCart_col ModalCart_item ModalCart_img img">
                             <img src={state_product.imgs[item.id].name} alt="" />
@@ -65,9 +65,9 @@ const Product_ModalCart = () => {
                             {item.price}đ
                         </div>
                         <div className="ModalCart_col ModalCart_item quantily">
-                            <i class='bx bx-minus' onClick={() => dispatch(minus(index))}></i>
+                            <i className='bx bx-minus' onClick={() => dispatch(minus(index))}></i>
                             <span>{item.quantily}</span>
-                            <i class='bx bx-plus' onClick={() => dispatch(plus(index))}></i>
+                            <i className='bx bx-plus' onClick={() => dispatch(plus(index))}></i>
                         </div>
                     </div>
                 ))

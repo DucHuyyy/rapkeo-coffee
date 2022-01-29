@@ -33,7 +33,7 @@ const List_Orders = () => {
                 state_orders.orders.map((item, index) => (
                     <Row className="orders_row" key={index}>
                         <Col className="orders_col orders_list" xs={1}>
-                            <i class='bx bxs-trash' onClick={() => remove(item, index)}></i>
+                            <i className='bx bxs-trash' onClick={() => remove(item, index)}></i>
                         </Col>
                         <Col className="orders_col orders_list " xs={2}>
                             {item.name}
@@ -44,7 +44,7 @@ const List_Orders = () => {
                         <Col className="orders_col orders_product orders_list" xs={3}>
                             {
                                 item.product.map((product, index) => (
-                                    <p>{product.quantily + ` ` + product.name}</p>
+                                    <p key={index}>{product.quantily + ` ` + product.name}</p>
                                 ))
                             }
                         </Col>

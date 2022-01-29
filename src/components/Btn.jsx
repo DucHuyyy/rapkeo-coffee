@@ -14,14 +14,14 @@ const Btn = props => {
 
     return (
         <Link to={URL}>
-            <Button className={props.class} onClick={props.onClick}>{props.name}</Button>
+            <Button className={props.classname} onClick={props.onClick}>{props.name}</Button>
         </Link>
     )
 }
 
 Btn.propTypes = {
     name: PropTypes.string.isRequired,
-    class: PropTypes.string.isRequired,
+    classname: PropTypes.string.isRequired,
     link: PropTypes.string,
     onClick: PropTypes.func
 }

@@ -53,16 +53,16 @@ const Menu = () => {
         return state_product.products.filter(e => e.type === type);
     }
 
-    useEffect(() => {
-        window.addEventListener("scroll", () => {
-            if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
-                MenuRef.current.classList.add("shrinkMenu")
-            } else {
-                MenuRef.current.classList.remove("shrinkMenu")
-            }      
-        })
-        return () => window.removeEventListener("scroll")
-    }, [])
+    // useEffect(() => {
+    //     window.addEventListener("scroll", () => {
+    //         if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+    //             MenuRef.current.classList.add("shrinkMenu")
+    //         } else {
+    //             MenuRef.current.classList.remove("shrinkMenu")
+    //         }      
+    //     })
+    //     return () => window.removeEventListener("scroll")
+    // }, [])
 
     useEffect(() => {
         window.scrollTo(0, 0)
