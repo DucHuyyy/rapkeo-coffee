@@ -5,6 +5,7 @@ import { useSelector } from 'react-redux'
 import Helmet from '../components/Helmet'
 import Popular from '../components/Popular'
 import ProductView from '../components/ProductView'
+
 const Product = () => {
 
     const state_product = useSelector((state_product) => state_product.product)
