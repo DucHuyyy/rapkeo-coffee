@@ -1,0 +1,49 @@
+.footer {
+    position: relative;
+    z-index: 100;
+    background-color:#373737;
+    border-top: 8px solid #ea8025;
+    
+    color: white;
+
+    &_row {
+        padding: 40px 0 20px 0;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    &_col {
+        @include flex(null, center);
+        margin-bottom: 20px;
+    }
+
+    &_info{
+        width: 440px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    &_logo {
+        height: 140px;
+    }
+
+    &_map {
+        height: 200px;
+        border: 0;
+        iframe {
+            max-width: 100%;
+            min-width: 360px;
+        }
+    }
+
+    &_brand {
+        width: 70%;
+        text-transform: uppercase;
+        font-size: 25px;
+        font-weight: 700;
+        border-bottom: 3px dashed white;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+    }
+}
+

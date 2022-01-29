@@ -1,0 +1,33 @@
+.orders {
+    margin: 20px auto;
+    &_col {
+        padding: 5px 0;
+        border: 1px solid gray;
+        @include flex(center, center);
+        background-color: #ea8025;
+        color: white;
+    }
+
+    &_product {
+        flex-direction: column;
+    }
+
+    &_list {
+        background: white;
+        color: black;
+    }
+
+    i:hover {
+        cursor: pointer;
+    }
+}
+
+
+@media (max-width: 415px) {
+    .orders {
+
+        &_col {
+            font-size: 12px;
+        }
+    }
+}

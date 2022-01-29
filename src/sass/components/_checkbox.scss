@@ -1,0 +1,14 @@
+.custom-checkbox {
+
+    &_input {
+        opacity: 0;
+    }
+    
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.custom-checkbox_input:checked ~ .custom-checkbox_title{
+    color: red;
+}

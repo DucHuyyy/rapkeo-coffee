@@ -1,0 +1,114 @@
+.menu {
+    position: relative;
+    &_filter {
+        padding: 0;
+        &_widget {
+            text-align: center;
+            &_title {
+                font-size: 35px;
+                margin: 10px 0 20px 0;
+
+            }
+            &_content {
+                &_item {
+                    font-size: 20px;
+                    padding: 20px 0;
+                    margin: 20px 0;
+                    background-color: #f3f3f3;
+                    text-transform: uppercase;
+                    color: #5b5434;
+                    font-weight: 600;
+
+                    &:hover {
+                        cursor: pointer;
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.shrinkMenu {
+    z-index: 99;
+    position: fixed;
+    transform: translateY(-90px);
+    width: 15%;
+    animation: ScrollMenu 1s;
+}
+
+.activeMenu {
+    color: red;
+}
+
+.ToTheBottom {
+    position: absolute;
+    z-index: 1;
+}
+
+@keyframes ScrollMenu {
+    from {
+        transform: translateY(-200px)
+    }
+    to {
+        transform: translateY(-40px)
+    }
+}
+
+
+@media (max-width: 1199.98px) { 
+    .shrinkMenu { 
+        transform: translateY(-50px);
+    }
+}
+
+@media (min-width: 816px) {
+    .ToTheBottom {
+        position: absolute;
+        z-index: 1; 
+    }
+}
+
+@media (max-width: 815px) {
+    .menu {
+        &_filter {
+            width: 100%;
+            background-color: #ffca44;
+            &_widget {
+                width: 100%;
+                background-color: #ffca44;
+                &_title {
+                    display: none;
+                }
+
+                &_content {
+                    width: 100%;
+                    margin: 0;
+                    @include flex(center, space-between);
+                    &_item {
+                        background-color: #ffca44;
+                        font-size: 16px;
+                        text-transform: uppercase;
+                        font-weight: 600;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }   
+    .shrinkMenu {
+        transform: translateY(-42px);
+        animation: ScrollMenu 1s;
+    }
+    .ToTheBottom {
+        position: fixed;
+        z-index: 99;
+    }
+}
+
+
+@media (max-width: 415px) {
+    .menu_filter_widget_content_item {
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,67 @@
+.popular {
+    padding: 70px 0;
+    &_title {
+        text-transform: uppercase;
+        color: #ea8025;
+        font-size: 32px;
+        margin: 10px;
+        font-weight: 700;
+
+        &:after {
+            content: "";
+            display: block;
+            width: 45px;
+            height: 5px;
+            background-color: black;
+            margin: 10px 0;
+        }
+    }
+
+    &_container {
+        max-width: 1200px;
+    }
+
+    &_row {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    &_item {
+        width: 33%;
+        margin: 10px auto;
+        padding: 5px;
+
+        & > * {
+            padding: 0;
+        }
+
+        &_name {
+            font-size: 19px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin: 10px auto;
+        }
+
+        &_price {
+            font-size: 19px;
+            font-weight: 700;
+            color: #ea8025;
+        }
+    }
+}
+
+
+@media (max-width: 960px) {
+    .popular {
+        &_item {
+            width: 48.6%;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .popular_title {
+        font-size: 30px;
+    }
+}

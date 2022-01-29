@@ -1,0 +1,53 @@
+.btn {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 0px;
+    border: 2px solid #ea8025;
+    margin: 5px 5px 0 0;
+
+    &:focus {
+        background-color: #ea8025;
+        border: none;
+        box-shadow: none;
+    }
+    &_order {
+        background-color: #ea8025;
+
+        &:hover {
+            border: #ea8025 2px solid;
+            background-color: #ea8025;
+            text-decoration: underline;
+        }
+    }
+
+    &_info-item {
+        background-color: white;
+        color: #ea8025;
+
+        &:hover {
+            border: #ea8025 2px solid;
+            background-color: white;
+            text-decoration: underline;
+            color: #ea8025;
+        }
+    }
+
+    &_menu {
+        background-color: #373737;
+        border: none;
+
+        &:hover {
+            background-color: #373737;
+            text-decoration: underline;
+        }
+    }
+}
+
+
+
+@media (max-width: 391px) {
+    .btn {
+        font-size: 13px;
+    }
+}

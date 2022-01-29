@@ -1,0 +1,55 @@
+.login {
+    &_container {
+        margin: 40px auto;
+    }
+
+    &_col {
+        border: 1px solid #D6D6D6;
+        margin: 5px
+    }
+
+    &_div {
+        @include flex(center, null);
+        flex-direction: column
+    }
+    
+    &_input {
+        margin-bottom: 10px;
+        margin-top: 5px;
+        outline: none;
+    }
+
+    &_title {
+        
+        strong {
+            color: red;
+        }
+    }
+
+    &_btn {
+        padding: 7px 25px;
+        background: #ea8025;
+        border: none;
+        display: block;
+        color: #fff;
+        border-radius: 3px;
+        margin: 10px 0px;
+        cursor: pointer;
+        box-sizing: border-box;
+        text-transform: uppercase;
+        text-decoration: none;
+        float: left;
+        margin-right: 5px;
+        &:hover {
+            background-color: #ea8025;
+            text-decoration: underline;
+        }
+    }
+}
+
+
+@media (max-width: 515px) {
+    .login_row {
+        flex-direction: column;
+    }
+}
