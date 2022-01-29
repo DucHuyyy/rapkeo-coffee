@@ -1,0 +1,450 @@
+{
+  "product": [
+    {
+      "id": 0,
+      "name": "CAPPUCCINO - RAPKEO",
+      "slug": "CAPPUCCINO",
+      "type": "Cafe",
+      "price": "30.000",
+      "popular": 0,
+      "description": "Bên dưới tầng foam xốp, dày và mịn là lớp Espresso mang hương vị mạnh mẽ và đậm đặc. Một điều nho nhỏ có lẽ bạn chưa biết, ở Ý, người ta thưởng thức Cappuccino chung với bữa sáng và hiếm khi uống Cappuccino sau 11 giờ trưa. ​",
+      "quantily": 1
+    },
+    {
+      "id": 1,
+      "name": "LATTE - RAPKEO",
+      "slug": "LATTE",
+      "type": "Cafe",
+      "price": "30.000",
+      "popular": 0,
+      "description": "Một tách Latte phảng phất hương vị cà phê là cách bạn \"lay nhẹ\" bản thân trước khi bắt đầu một ngày dài làm việc.",
+      "quantily": 1
+    },
+    {
+      "id": 2,
+      "name": "CAFE SỮA ĐÁ - RAPKEO",
+      "slug": "CAFE-SỮA-ĐÁ",
+      "type": "Cafe",
+      "price": "24.000",
+      "popular": 1,
+      "description": "Dung tích ly khuyên dùng: 300ml. Lấy 1 cúp đầy cafe rang xay nguyên chất, ép chặt sau đó đặt vào máy pha cafe. Thành phầm sau khi pha: nước cafe 30ml + 20ml sữa đặc + ly đá bi.",
+      "quantily": 1
+    },
+    {
+      "id": 3,
+      "name": "CAFE ĐEN ĐÁ - RAPKEO",
+      "slug": "CAFE-ĐEN-ĐÁ",
+      "type": "Cafe",
+      "price": "20.000",
+      "popular": 1,
+      "description": "Dung tích ly khuyên dùng: 300ml. Lấy 1 cúp đầy cafe rang xay nguyên chất, ép chặt sau đó đặt vào máy pha cafe. Thành phầm sau khi pha: nước cafe 30ml + thìa đường nhỏ + ly đá bi.",
+      "quantily": 1
+    },
+    {
+      "id": 4,
+      "name": "BẠC SỈU - RAPKEO",
+      "slug": "BẠC-SỈU",
+      "type": "Cafe",
+      "price": "25.000",
+      "popular": 1,
+      "description": "Dung tích ly khuyên dùng: 300ml. 1 cúp đầy cafe rang xay nguyên chất, ép chặt sau đó đặt vào máy pha cafe. Thành phầm sau khi pha: nước cafe 30ml + 20ml sữa đặt + 10ml sữa tươi ",
+      "quantily": 1
+    },
+    {
+      "id": 5,
+      "name": "TRÀ GỪNG - RAPKEO",
+      "slug": "ao-thun-dinosaur",
+      "type": "Trà",
+      "price": "25.000",
+      "popular": 0,
+      "description": "Uống trà gừng hàng ngày là cách tuyệt vời để bạn chăm sóc và bảo vệ sức khỏe Trà gừng cay và nóng, vì vậy mà nó là loại thức uống tuyệt vời trong ngày lạnh thay cho cà-phê. Tuy nhiên, trà gừng còn hơn cả là một loại thức uống bình thường vì nó có rất nhiều tác dụng với sức khỏe.",
+      "quantily": 1
+    },
+    {
+      "id": 6,
+      "name": "TraLipTon - RAPKEO",
+      "slug": "TraLipTon",
+      "type": "Trà",
+      "price": "25.000",
+      "popular": 0,
+      "description": "Nấu nước nóng ngâm trà 40 ml ngâm trong 2 phút sau đó cắt 1/2 trái chanh vắt vô cho 2 muỗng đường  và 1 tí muối cho trà đã ngâm. Rồi quậy điều tay cắt 2 lát chanh  để trang trí. Chân thành cảm ơn và chúc quý khách ngon miệng!",
+      "quantily": 1
+    },
+    {
+      "id": 7,
+      "name": "TRÀ ATISO MẬT ONG - RAPKEO",
+      "slug": "TRÀ-ATISO-MẬT-ONG",
+      "type": "Trà",
+      "price": "25.000",
+      "popular": 0,
+      "description": "Trà atiso kết hợp cùng mật ong không chỉ giúp tăng vị ngon mà còn phát huy những lợi ích mà thức uống này mang lại. Mật ong vốn nổi tiếng vì có nhiều công dụng đối với hệ tiêu hóa và sắc đẹp. Atiso kết hợp mật ong sẽ giúp thanh lọc cơ thể, lợi tiểu, kích thích tiêu hóa, tăng cường hệ miễn dịch cũng như làm đẹp da.",
+      "quantily": 1
+    },
+    {
+      "id": 8,
+      "name": "TRÀ ĐÀO CAM SẢ - RAPKEO",
+      "slug": "TRÀ-ĐÀO-CAM-SẢ",
+      "type": "Trà",
+      "price": "30.000",
+      "popular": 0,
+      "description": "Vị thanh ngọt của đào Hy Lạp, vị chua dịu của Cam Vàng nguyên vỏ, vị chát của trà đen tươi được ủ mới mỗi 4 tiếng, cùng hương thơm nồng đặc trưng của sả chính là điểm sáng làm nên sức hấp dẫn của thức uống này. Sản phẩm hiện có 2 phiên bản Nóng và Lạnh phù hợp cho mọi thời gian trong năm.",
+      "quantily": 1
+    },
+    {
+      "id": 9,
+      "name": "TRÀ HOA CÚC - RAPKEO",
+      "slug": "TRÀ-HOA-CÚC",
+      "type": "Trà",
+      "price": "25.000",
+      "popular": 0,
+      "description": "Trà hoa cúc là một loại đồ uống phổ biến được nhiều người yêu thích. Thưởng thức trà hoa cúc cũng là một thú vui tao nhã thay thế cho các loại đồ uống chứa caffeine. Không chỉ mang mùi hương dịu nhẹ của hoa cúc, trà hoa cúc còn có những lợi ích bất ngờ tốt cho sức khỏe của bạn",
+      "quantily": 1
+    },
+    {
+      "id": 10,
+      "name": "TRÀ HOA LÀI - RAPKEO",
+      "slug": "TRÀ-HOA-LÀI",
+      "type": "Trà",
+      "price": "25.000",
+      "popular": 0,
+      "description": "Hoa Lài có chứa cao dầu etheric, có tác dụng tăng cường năng lượng. Ngoài ra, có chứa benzilic acetate, linalcohol, rượu benzilic, indole và jasmon có đặc tính Cải thiện giấc ngủ, thúc đẩy hệ tiêu hóa",
+      "quantily": 1
+    },
+    {
+      "id": 11,
+      "name": "TRÀ HOA HỒNG - RAPKEO",
+      "slug": "TRÀ-HOA-HỒNG",
+      "type": "Trà",
+      "price": "25.000",
+      "popular": 0,
+      "description": "Trà hoa hồng là trà thơm ngon với hương vị ngọt thanh khó có thể cưỡng lại. Đây không chỉ là thứ trà để thưởng thức mà còn mang lại nhiều lợi ích vàng cho sức khỏe.",
+      "quantily": 1
+    },
+    {
+      "id": 12,
+      "name": "NƯỚC ÉP CAM - RAPKEO",
+      "slug": "NƯỚC-ÉP-CAM",
+      "type": "Nước Ép",
+      "price": "30.000",
+      "popular": 1,
+      "description": "Nước cam là loại nước ép triết xuất từ cam nguyên chất chứa nhiều vitamin và khoáng chất tốt cho sức khỏe, nhất là công dụng làm đẹp với các chị em phụ nữ.",
+      "quantily": 1
+    },
+    {
+      "id": 13,
+      "name": "NƯỚC ÉP THƠM - RAPKEO",
+      "slug": "NƯỚC-ÉP-THƠM",
+      "type": "Nước Ép",
+      "price": "30.000",
+      "popular": 1,
+      "description": "Mùa hè nắng nóng, có một ly nước ép dứa mát lạnh để thưởng thức thì không còn gì tuyệt vời bằng, vừa giải khát lại đẹp da, vừa giảm cân hiệu quả lại cực kỳ tốt cho sức khỏe. Làm nước ép dứa không quá cầu kỳ như các loại nước khác.Nước ép dứa có vị chua thanh, thơm ngon chỉ cần bỏ ra chút ít thời gian là bạn đã có được những ly thức uống thơm ngon, bổ dưỡng",
+      "quantily": 1
+    },
+    {
+      "id": 14,
+      "name": "NƯỚC ÉP ỔI - RAPKEO",
+      "slug": "NƯỚC-ÉP-ỔI",
+      "type": "Nước Ép",
+      "price": "30.000",
+      "popular": 0,
+      "description": "Là loại trái cây được yêu thích bởi vị chua ngọt, giòn tan, Ổi bên cạnh thưởng thức trực tiếp còn được sử dụng làm nguyên liệu để pha chế nước ép. Nước ép ổi là một trong những loại đồ uống được các chị em phụ nữ cực kỳ ưa chuộng  sẽ giúp bạn có ngay món đồ thơm ngon, hấp dẫn để giải nhiệt và bổ sung dinh dưỡng cho cơ thể.",
+      "quantily": 1
+    },
+    {
+      "id": 15,
+      "name": "NƯỚC ÉP TÁO XANH - RAPKEO",
+      "slug": "NƯỚC-ÉP-TÁO-XANH",
+      "type": "Nước Ép",
+      "price": "30.000",
+      "popular": 0,
+      "description": "Lấy 1 quả táo ép 40ml nước cho vào 1 tí muối và 2 muỗng đường quậy điều tay cho đá vào đầy lưng ly. Chân thành cảm ơn và chúc quý khách ngon miệng!",
+      "quantily": 1
+    },
+    {
+      "id": 16,
+      "name": "NƯỚC ÉP DƯA HẤU - RAPKEO",
+      "slug": "NƯỚC-ÉP-DƯA-HẤU",
+      "type": "Nước Ép",
+      "price": "30.000",
+      "popular": 0,
+      "description": "Nước ép dưa hấu không chỉ là một loại nước giải khát mà nó còn là một thức uống rất tốt cho cơ thể Một ly nước ép dưa hấu vào buổi sáng ở Caudatcoffee không những giúp tinh thần bạn sảng khoái, tỉnh táo mà nước ép này còn giúp bổ sung Vitamin A và lọc bỏ các độc tố ra khỏi cơ thế.",
+      "quantily": 1
+    },
+    {
+      "id": 17,
+      "name": "NƯỚC ÉP CÀ RỐT - RAPKEO",
+      "slug": "NƯỚC-ÉP-CÀ-RỐT",
+      "type": "Nước Ép",
+      "price": "30.000",
+      "popular": 0,
+      "description": "Nước ép cà rốt là thức uống ngon và giàu dinh dưỡng, bao gồm beta-carotene, vitamin A, B, C, D, E, K cùng các khoáng chất như canxi, phốt-pho và kali. Cà rốt tốt cho da, tóc, móng và chức năng gan và giúp bạn giảm cân,vì vậy làm nước ép cà rốt tại nhà là một cách thông minh để chăm sóc sức khỏe",
+      "quantily": 1
+    },
+    {
+      "id": 18,
+      "name": "NƯỚC ÉP CÀ CHUA - RAPKEO",
+      "slug": "NƯỚC-ÉP-CÀ-CHUA",
+      "type": "Nước Ép",
+      "price": "30.000",
+      "popular": 0,
+      "description": "Nước ép cà chua là một thức uống phổ biến được làm từ nước ép của cà chua tươi, cà chua rất giàu vitamin và khoáng chất, nhất là vitamin A,  Chỉ cần một ly nước ép cà chua ở CaudatCoffee  thôi cũng giúp bạn cải thiện sức khỏe rất nhiều.",
+      "quantily": 1
+    },
+    {
+      "id": 19,
+      "name": "DỪA TRÁI - RAPKEO",
+      "slug": "DỪA-TRÁI",
+      "type": "Nước Ép",
+      "price": "25.000",
+      "popular": 0,
+      "description": "100% là nước dừa tươi không ngâm nước hay hóa chất. Giữa trưa trời nóng bức bạn uống nước dừa tươi giúp giải tỏa cơn khát và cung cấp lượng nước cho cơ thể mang nhiều chất Vitamin. Nước dừa cung cấp các chất điện phân cần thiết để giữ cho cơ thể đủ nước như canxi, kali, natri và phốt pho. Những chất dinh dưỡng này giúp duy trì huyết áp, cân bằng chất lỏng",
+      "quantily": 1
+    },
+    {
+      "id": 20,
+      "name": "YAOURT ĐÁ - RAPKEO",
+      "slug": "YAOURT-ĐÁ",
+      "type": "Sinh Tố",
+      "price": "25.000",
+      "popular": 0,
+      "description": "Theo nghiên cứu của Bộ Nông nghiệp Hoa Kỳ, trong yaourt giàu protein, calcium, phôt pho, sắt, vitamin A, B6, B12, C, D, E, K magie, kẽm và nhiều lợi khuẩn có ích cho sức khỏe. Vì vậy, sữa chua là một trong những loại thực phẩm rất có nhiều công dụng tốt cho sức khỏe.",
+      "quantily": 1
+    },
+    {
+      "id": 21,
+      "name": "ĐÁ XAY CAM VÀNG - RAPKEO",
+      "slug": "ĐÁ-XAY-CAM-VÀNG",
+      "type": "Sinh Tố",
+      "price": "35.000",
+      "popular": 0,
+      "description": "Lấy 1 trái cam vắt nước bỏ vào máy xay sinh tố và cho 30ml sữa đặc 1 muỗng đường cho vào 1 ly đá xay nhuyễn, cắt nữa lát cam vàng trang trí và cây bạc hà. Chân thành cảm ơn và chúc quý khách ngon miệng!",
+      "quantily": 1
+    },
+    {
+      "id": 22,
+      "name": "ĐÁ XAY XOÀI DỪA - RAPKEO",
+      "slug": "ĐÁ-XAY-XOÀI-DỪA",
+      "type": "Sinh Tố",
+      "price": "35.000",
+      "popular": 0,
+      "description": "Vị béo ngậy của dừa, vị chua ngọt dịu của xoài sẽ khiến bạn thích mê món này ngay. Khi trời nắng nóng ngồi nhâm nhi ly xoài dừa đá xay thì còn gì bằng, them chút biến tấu trang trí là có ngang món ngon vừa ngon vừa đẹp mắt  vừa lạ miệ",
+      "quantily": 1
+    },
+    {
+      "id": 23,
+      "name": "ĐÁ XAY TRÀ XANH - RAPKEO",
+      "slug": "ĐÁ-XAY-TRÀ-XANH",
+      "type": "Sinh Tố",
+      "price": "35.000",
+      "popular": 0,
+      "description": "Matcha đá xay (còn gọi là trà xanh đá xay hay matcha ice blended) là món thức uống đầy hấp dẫn khi được kết hợp hoàn hảo giữa vị béo ngậy của sữa, chút thanh mát từ bột và syrup trà xanh, quyện cùng cảm giác thơm thoang thoảng dịu nhẹ của bột vanilla.",
+      "quantily": 1
+    },
+    {
+      "id": 24,
+      "name": "SINH TỐ BƠ - RAPKEO",
+      "slug": "SINH-TỐ-BƠ",
+      "type": "Sinh Tố",
+      "price": "35.000",
+      "popular": 1,
+      "description": "Sinh tố bơ không chỉ là đồ uống thơm mát mà còn chứa nhiều Vitamin A, D, E rất tốt cho chăm sóc sắc đẹp của chị em phụ nữ. 1 ly sinh tố bơ mỗi ngày cũng có thể giúp kiểm soát nồng độ cholesterol, giảm thiểu bệnh tim mạch ",
+      "quantily": 1
+    },
+    {
+      "id": 25,
+      "name": "SINH TỐ DÂU - RAPKEO",
+      "slug": "SINH-TỐ-DÂU",
+      "type": "Sinh Tố",
+      "price": "35.000",
+      "popular": 0,
+      "description": "Sinh tố dâu là thức uống tươi ngon, bổ dưỡng, giải khát trong ngày hè. Có nhiều loại dâu để có thể làm sinh tố nhưng mùa này dâu tây là hợp nhất. sinh tố dâu tây có vị đặc trưng, chua chua, ngọt ngọt, một ít sữa tạo vị béo  uống kèm đá xay  lạnh thì quá tuyệt!",
+      "quantily": 1
+    },
+    {
+      "id": 26,
+      "name": "SINH TỐ DỪA - RAPKEO",
+      "slug": "SINH-TỐ-DỪA",
+      "type": "Sinh Tố",
+      "price": "35.000",
+      "popular": 0,
+      "description": "Một ly sinh tố dừa ngon lành với sự hòa quyện hoàn hảo giữa vị mát lạnh của đá bào và vị béo ngậy của dừa và sữa sẽ giúp bạn giải nhiệt hiệu quả trong những ngày hè nóng nực như thế này",
+      "quantily": 1
+    },
+    {
+      "id": 27,
+      "name": "SINH TỐ MÃNG CẦU - RAPKEO",
+      "slug": "SINH-TỐ-MÃNG-CẦU",
+      "type": "Sinh Tố",
+      "price": "35.000",
+      "popular": 0,
+      "description": "Những ngày hè oi bức,một ly sinh tố mát lạnh là sự lựa Cho Bạn .Sinh tố mãng cầu xiêm có vị chua chua ngọt ngọt, thơm ngon thú vị.Ta thêm một chút sữa tươi, sữa chua và đường  cát sẽ mang đến cho bạn một món sinh tố thơm ngon, bổ dưỡng để hưởng thức.",
+      "quantily": 1
+    },
+    {
+      "id": 28,
+      "name": "SINH TỐ SAPOCHE - RAPKEO",
+      "slug": "SINH-TỐ-SAPOCHE",
+      "type": "Sinh Tố",
+      "price": "35.000",
+      "popular": 0,
+      "description": "Sinh tố dâu là thức uống tươi ngon, bổ dưỡng, giải khát trong ngày hè. Có nhiều loại dâu để có thể làm sinh tố nhưng mùa này dâu tây là hợp nhất. sinh tố dâu tây có vị đặc trưng, chua chua, ngọt ngọt, một ít sữa tạo vị béo  uống kèm đá xay  lạnh thì quá tuyệt!",
+      "quantily": 1
+    },
+    {
+      "id": 29,
+      "name": "SINH TỐ XOÀI - RAPKEO",
+      "slug": "SINH-TỐ-XOÀI",
+      "type": "Sinh Tố",
+      "price": "35.000",
+      "popular": 0,
+      "description": "Xoài là một loại trái cây rất phổ biến và rất được yêu thích ở Việt Nam, bởi hương vị thơm ngon đặc trưng.Xoài kết hợp với sữa chua tạo nên một ly sinh tố xoài mát lạnh, khi uống thì có vị chua ngọt nhẹ, không bị ngọt gắt.",
+      "quantily": 1
+    },
+    {
+      "id": 30,
+      "name": "NƯỚC SUỐI - RAPKEO",
+      "slug": "NƯỚC-SUỐI",
+      "type": "Sản phẩm khác",
+      "price": "15.000",
+      "popular": 0,
+      "description": "",
+      "quantily": 1
+    },
+    {
+      "id": 31,
+      "name": "COCACOLA - RAPKEO",
+      "slug": "COCACOLA",
+      "type": "Sản phẩm khác",
+      "price": "20.000",
+      "popular": 0,
+      "description": "",
+      "quantily": 1
+    },
+    {
+      "id": 32,
+      "name": "7 UP - RAPKEO",
+      "slug": "7-UP",
+      "type": "Sản phẩm khác",
+      "price": "20.000",
+      "popular": 0,
+      "description": "",
+      "quantily": 1
+    },
+    {
+      "id": 33,
+      "name": "STING - RAPKEO",
+      "slug": "STING",
+      "type": "Sản phẩm khác",
+      "price": "20.000",
+      "popular": 0,
+      "description": "",
+      "quantily": 1
+    },
+    {
+      "id": 34,
+      "name": "BÒ HÚC - RAPKEO",
+      "slug": "BÒ-HÚC",
+      "type": "Sản phẩm khác",
+      "price": "25.000",
+      "popular": 0,
+      "description": "",
+      "quantily": 1
+    },
+    {
+      "id": 35,
+      "name": "TRÀ XANH - RAPKEO",
+      "slug": "TRÀ-XANH",
+      "type": "Sản phẩm khác",
+      "price": "20.000",
+      "popular": 0,
+      "description": "",
+      "quantily": 1
+    }
+  ],
+  "account": [
+    {
+      "id": 0,
+      "userName": "admin",
+      "password": "1",
+      "logged": false
+    },
+    {
+      "id": 1,
+      "userName": "DucHuy",
+      "password": "1",
+      "logged": false
+    }
+  ],
+  "orders": [
+    {
+      "name": "DucHuy",
+      "phone": "0123456789",
+      "address": "64/32 Quang Trung",
+      "notes": "khong co ghi chu gi ca",
+      "product": [
+        {
+          "id": 3,
+          "name": "CAFE ĐEN ĐÁ - RAPKEO",
+          "slug": "CAFE-ĐEN-ĐÁ",
+          "type": "Cafe",
+          "price": "20.000",
+          "popular": 1,
+          "description": "Dung tích ly khuyên dùng: 300ml. Lấy 1 cúp đầy cafe rang xay nguyên chất, ép chặt sau đó đặt vào máy pha cafe. Thành phầm sau khi pha: nước cafe 30ml + thìa đường nhỏ + ly đá bi.",
+          "quantily": 3
+        },
+        {
+          "id": 2,
+          "name": "CAFE SỮA ĐÁ - RAPKEO",
+          "slug": "CAFE-SỮA-ĐÁ",
+          "type": "Cafe",
+          "price": "24.000",
+          "popular": 1,
+          "description": "Dung tích ly khuyên dùng: 300ml. Lấy 1 cúp đầy cafe rang xay nguyên chất, ép chặt sau đó đặt vào máy pha cafe. Thành phầm sau khi pha: nước cafe 30ml + 20ml sữa đặc + ly đá bi.",
+          "quantily": 2
+        }
+      ],
+      "total_money": 108,
+      "id": 1
+    },
+    {
+      "name": "DucHoang",
+      "phone": "0123456789",
+      "address": "64/32 Quang Trung",
+      "notes": "khong co ghi chu gi ca",
+      "product": [
+        {
+          "id": 24,
+          "name": "SINH TỐ BƠ - RAPKEO",
+          "slug": "SINH-TỐ-BƠ",
+          "type": "Sinh Tố",
+          "price": "35.000",
+          "popular": 1,
+          "description": "Sinh tố bơ không chỉ là đồ uống thơm mát mà còn chứa nhiều Vitamin A, D, E rất tốt cho chăm sóc sắc đẹp của chị em phụ nữ. 1 ly sinh tố bơ mỗi ngày cũng có thể giúp kiểm soát nồng độ cholesterol, giảm thiểu bệnh tim mạch ",
+          "quantily": 2
+        }
+      ],
+      "total_money": 70,
+      "id": 2
+    },
+    {
+      "name": "DucHuy",
+      "phone": "0123456789",
+      "address": "64/32 Quang Trung",
+      "notes": "khong co ghi chu gi ca",
+      "product": [
+        {
+          "id": 12,
+          "name": "NƯỚC ÉP CAM - RAPKEO",
+          "slug": "NƯỚC-ÉP-CAM",
+          "type": "Nước Ép",
+          "price": "38.000",
+          "popular": 1,
+          "description": "Nước cam là loại nước ép triết xuất từ cam nguyên chất chứa nhiều vitamin và khoáng chất tốt cho sức khỏe, nhất là công dụng làm đẹp với các chị em phụ nữ.",
+          "quantily": 5
+        }
+      ],
+      "total_money": 190,
+      "id": 3
+    }
+  ]
+}
