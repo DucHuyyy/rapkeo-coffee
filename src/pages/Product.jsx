@@ -12,9 +12,12 @@ const Product = () => {
     
     const getProductBySlug = (slug) => state_product.products.find(e => e.slug === slug)
 
+    console.log(state_product)
+
     React.useEffect(() => {
         window.scrollTo(0,0)
     }, [id])
+
     return (
         <Helmet title={getProductBySlug(id).slug}>
             <Container className="product_container">
