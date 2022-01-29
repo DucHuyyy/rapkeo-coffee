@@ -12,6 +12,7 @@ const Popular = () => {
 
     let list = state.products.filter(item => item.popular === 1)
 
+
     return (
         <div className="popular">
             <Container className="popular_container">
@@ -19,7 +20,7 @@ const Popular = () => {
                 <div className="popular_row">
                     {
                         list.map((item, index) => (
-                           <ProductCard key={index} img={state.imgs[item.id].name} name={item.name} price={item.price} slug={"/Menu/" + item.slug}/>
+                           <ProductCard key={index} img={state.imgs[item.id].name} name={item.name} price={item.price} slug={item.slug}/>
                         ))
                     }
                 </div>

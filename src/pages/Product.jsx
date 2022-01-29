@@ -13,7 +13,9 @@ const Product = () => {
     
     const getProductBySlug = (slug) => state_product.products.find(e => e.slug === slug)
 
-    console.log(state_product)
+    if ( getProductBySlug(id) === undefined) {
+        window.location.href="/Menu"
+    }
 
     React.useEffect(() => {
         window.scrollTo(0,0)
